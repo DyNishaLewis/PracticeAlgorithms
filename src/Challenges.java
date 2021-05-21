@@ -1,9 +1,16 @@
 public class Challenges {
     /** Create a function which returns the number of true values there are in an array.*/
     public static int countTrueFalse(boolean[] arr) {
-        // write your code here
-        // you will need to change the return statement
-        return Integer.parseInt(null);
+        int count = 0;
+        // look at each piece of the array
+        for (boolean each: arr) {
+            // need to know if each element is true or false
+            if (each) count++;
+            // count how many that are true
+        }
+        return count;
+        // return that count
+
     }
 
     /** Create a function that takes an array and returns the absolute difference between the biggest and smallest numbers.*/
